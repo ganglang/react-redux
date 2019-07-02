@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+.clear_both{
+  clear: both;
+  float: none;
+}
+.App{
+
+}
+.App .topMenu li{
+  display: inline-block;
+  width: 33.33%;
+}
+.App .topMenu li a{
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  line-height: 40px;
+  background: gray;
+  color: #ffffff;
+}
+.App .topMenu li.active a{
+  background: #1a1a1a;
+  color: #ffffff;
+}
+.App .homeWrap{
+  padding: 16px;
+}
+
+.App .contentWrap h5{
+  font-size: 16px;
+  line-height: 36px;
+}
+/*计数器样式*/
+.counter button{
+  width: 24px;
+  height: 20px;
+}
+.counter .showCount{
+  display:inline-block;
+  text-align: center;
+  width: 32px;
+  height: 24px;
+  border: 1px solid #cccccc;
+  margin: 0 8px;
+}
+/*TODO列表样式*/
+.todoWrap .content{
+  margin-top:6px;
+}
+.todoWrap .content ul li{
+  margin-bottom: 6px;
+}
+/*用户页面*/
+.userWrap ul.subMenu{
+  width: 33.33%;
+  float: left;
+  background:gray;
+}
+.userWrap ul.subMenu li a{
+  display: block;
+  background: gray;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  padding:16px 8px;
+  text-align: center;
+}
+.userWrap ul.subMenu li.active a{
+  background:#1a1a1a;
+  color: #ffffff;
+}
+.userWrap .content{
+  width: 66.67%;
+  float: right;
+  padding:16px;
+}
+.userWrap .userList li{
+  margin-bottom:8px;
+}
+.userWrap .userList li:hover{
+  color: burlywood;
+}
+.userWrap .userList li a:hover{
+  color: red;
+}
+.userWrap .userList li .userId{
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 12px;
+  color:#1a1a1a;
+}
+.userWrap .userList li .userName{
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+  color:#1a1a1a;
+}
